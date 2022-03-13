@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Contact Form</title>
+  </head>
+  <body>
+    <h1> Contact Form </h1>
+<form action="index.html" method="post">
+  <table cellspacing="10">
+    <tr>
+      <td><label for="Your Name"> Your Name: </label></td>
+      <td><input type="text" placeholder="Enter Your Name" name="" value=""></td>
+    </tr>
+  </table>  <br>
+  <table cellspacing="10">
+    <tr>
+    <td><label> E-mail:</label></td>
+    <td><input type="text" placeholder="Enter Your Email" name="" value=""></td>
+    </tr>
+  </table>
+  <br>
+  <table cellspacing="10">
+    <tr>
+      <td><label> Mobile: </label></td>
+      <td><input type="text" placeholder="Enter Your Mobile" name="" value=""></td>
+    </tr>
+  </table>
+  <br>
+  <label for="Services">Choose a Services:</label>
+      <select id="Services" name="Services" size=4 multiple>
+        <option value="Accounting">Accounting</option>
+        <option value="GST">GST</option>
+        <option value="Income tax">Income Tax</option>
+        <option value="Loan">Loan</option>
+      </select>
+    <br>
+<table>
+  <tr>
+    <label> Your Message: </label>
+      <textarea name="comment" form="usrform">Enter text here...</textarea>
+  </tr>
+</table>
+<br>
+<input type="submit" value="Submit">
+</form>
+  </body>
+</html>
